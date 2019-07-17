@@ -1,0 +1,15 @@
+# Cache and build files
+.packages
+.dart_tool
+pubspec.lock
+
+# IDE local settings
+.atom/
+.idea
+.vscode/
+
+# Test token
+token.json
+
+# MacOS garbage
+.DS_Store
