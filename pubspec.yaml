@@ -1,6 +1,6 @@
 name: fireutil
 description: Utility to manage Firestore databases.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/cachapa/fireutil
 author: Daniel Cachapa <cachapa@gmail.com>
 
@@ -9,4 +9,4 @@ environment:
 
 dependencies:
   args: ^1.5.2
-  firedart: ^0.5.1
+  firedart: ^0.6.1
