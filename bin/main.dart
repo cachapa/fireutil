@@ -21,6 +21,7 @@ main(List<String> arguments) async {
     ..addCommand(WriteCommand(true))
     ..addCommand(AddCommand())
     ..addCommand(DeleteCommand())
+    // ignore: unawaited_futures
     ..run(arguments).catchError((error) {
       if (error is! UsageException) throw error;
       print(error);
